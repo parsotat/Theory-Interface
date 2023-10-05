@@ -1,0 +1,32 @@
+r_obs:
+  custom: yes
+  values: [100000000000000.]
+  
+fps:
+  custom: yes
+  values: [10.]
+  
+tmin:
+  custom: yes
+  values: [0.]
+  
+tmax:
+  custom: yes
+  values: [40.]
+
+#dtheta % theta are in degrees, accept photons in angle around theta \pm dtheta
+dtheta:
+    custom: yes
+    values: [1.]
+    
+theta:
+    custom: yes
+    values: [1.,2.,3.,4.,5.,6.,7.,8.,9.]
+
+#this needs to be included for this yml file to be parsed. Needs to be units of keV for class
+energy_grid:
+  custom: no
+  vmin: 1e-7
+  vmax: 1e5
+  scale: "log"
+  n_points: 50

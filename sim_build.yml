@@ -1,0 +1,18 @@
+# the import line to get our simulation
+# we ALWAYS import as Simulation
+import_line: "from ronswanson.band_simulation import BandSimulation as Simulation"
+
+# the parameter grid
+parameter_grid: "test_params.yml"
+
+# name of our database
+out_file: database.h5
+
+# clean out the simulation directory after
+# the run. It is defaulted to yes
+clean: yes
+
+simulation:
+
+  # number of multi-process jobs
+  n_mp_jobs: 8
