@@ -15,4 +15,4 @@ clean: yes
 simulation:
 
   # number of multi-process jobs
-  n_mp_jobs: 8
+  n_mp_jobs: 1
