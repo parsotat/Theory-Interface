@@ -26,4 +26,4 @@ def func(i, silent: bool=True):
     simulation.run()
 iteration = [i for i in range(0, n_points)]
 Parallel(n_jobs=1)(delayed(func)(i) for i in tqdm(iteration, colour=Colors.RED.value, desc='simulating function'))
-gather('/Users/tparsotan/Library/CloudStorage/Box-Box/Theory-Interface/database.h5', 9, clean=True)
+gather('/Users/tparsotan/Library/CloudStorage/Box-Box/Theory-Interface/database.h5', 18, clean=True)
